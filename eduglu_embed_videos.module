@@ -1,0 +1,3 @@
+<?php
+
+include_once('eduglu_embed_videos.features.inc');
