@@ -30,7 +30,7 @@ function eduglu_embed_videos_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_default_order_video';
-  $strongarm->value = '1';
+  $strongarm->value = '2';
 
   $export['comment_default_order_video'] = $strongarm;
   $strongarm = new stdClass;
@@ -58,7 +58,7 @@ function eduglu_embed_videos_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_subject_field_video';
-  $strongarm->value = '1';
+  $strongarm->value = '0';
 
   $export['comment_subject_field_video'] = $strongarm;
   $strongarm = new stdClass;

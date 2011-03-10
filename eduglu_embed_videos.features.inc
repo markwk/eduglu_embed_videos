@@ -24,7 +24,7 @@ function eduglu_embed_videos_node_info() {
     'video' => array(
       'name' => t('Video'),
       'module' => 'features',
-      'description' => '',
+      'description' => t('Allows you to post videos from third party sites. '),
       'has_title' => '1',
       'title_label' => t('Title'),
       'has_body' => '1',
