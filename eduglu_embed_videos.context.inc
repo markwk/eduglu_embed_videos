@@ -34,11 +34,17 @@ function eduglu_embed_videos_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'boxes-videos_help' => array(
+          'module' => 'boxes',
+          'delta' => 'videos_help',
+          'region' => 'right',
+          'weight' => 0,
+        ),
         'views-embed_videos-block_1' => array(
           'module' => 'views',
           'delta' => 'embed_videos-block_1',
           'region' => 'right',
-          'weight' => 0,
+          'weight' => 1,
         ),
       ),
     ),
