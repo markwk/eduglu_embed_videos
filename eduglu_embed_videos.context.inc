@@ -46,8 +46,15 @@ function eduglu_embed_videos_context_default_contexts() {
           'region' => 'right',
           'weight' => 1,
         ),
+        'views-recent_video_zh_comments-block' => array(
+          'module' => 'views',
+          'delta' => 'recent_video_zh_comments-block',
+          'region' => 'right',
+          'weight' => 2,
+        ),
       ),
     ),
+    'menu' => 'embed_videos',
   );
   $context->condition_mode = 0;
 

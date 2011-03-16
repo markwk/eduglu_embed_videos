@@ -10,10 +10,10 @@ function eduglu_embed_videos_default_box() {
   $box->api_version = 1;
   $box->delta = 'videos_help';
   $box->plugin_key = 'simple';
-  $box->title = 'Videos Help';
+  $box->title = 'Videos:';
   $box->description = 'Embedded Videos Help';
   $box->options = array(
-    'body' => '<p>The videos section lets you add videos from external websites. Currently, the following websites are supported: YouKu &amp; TuDou.</p><p>If you want other sites to be added, please <a href="http://language-corner.org/support">request the sites you want added here</a>.</p>',
+    'body' => '<p>This video section is specifically configured for video website in China and lets you add videos from: <a href="http://www.youku.com/">YouKu</a> &amp; <a href="http://www.tudou.com">TuDou</a>.</p>',
     'format' => '3',
   );
 
